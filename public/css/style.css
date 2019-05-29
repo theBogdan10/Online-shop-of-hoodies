@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+
+.thumbnail {
+	margin-left: 40px;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+.thumbnail img{
+	max-height: 300px;
+	margin-top:45px; 
+	transition: 0.7s;
+}
+
+.clearfix a{
+	float: right;
+}
+
+.thumbnail img:hover{
+    transform: scale(1.15, 1.15);
+}
+
+.price{
+	font-style: oblique;
+	font-weight: bold;
+}
+
+
+
+h1 {
+	text-align: center;
+	margin-top: -20px;
+}
+
+.description{
+	margin-top: 15px;
+	font-size: 18px;
+}
+
+
+.pull-right{
+	margin-top: -10px;
+}
+
+
+footer {
+  background-color: blue;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 120px;
+
+}
